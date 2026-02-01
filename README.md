@@ -35,14 +35,14 @@ The images are preprocessed and converted into numerical feature vectors before 
 ---
 
 ## 🧾 Implementation Steps
-1️⃣ Data Preprocessing
+- 1️⃣ Data Preprocessing
 Images are resized to ensure uniform dimensions
 Grayscale conversion reduces computational cost
 Flattening converts images into numerical feature vectors
-2️⃣ Model Training
+- 2️⃣ Model Training
 A Linear SVM (LinearSVC) is used
 Feature scaling improves model performance
-3️⃣ Evaluation
+- 3️⃣ Evaluation
 Accuracy score
 Precision, recall, and F1-score
 ---
@@ -50,6 +50,7 @@ Precision, recall, and F1-score
 ## ✅ Results
 The SVM model successfully classifies cat and dog images with reasonable accuracy.
 While SVM performs well for this task, Convolutional Neural Networks (CNNs) are more suitable for large-scale image classification problems.
+
 ---
 
 ## 👤 Author
